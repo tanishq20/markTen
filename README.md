@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/saswatamcode/the_shoppies?style=social)](https://github.com/tanishq20/markTen/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/saswatamcode/the_shoppies.svg)](https://github.com/tanishq20/markTen/issues)
 # markTen
-This is cash register manager app which can be user by shopkeepers to return the change💰
+This is cash manager app which can be user by shopkeepers to return the change💰
 
 ## Technology Stack Used
 
