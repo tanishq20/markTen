@@ -1,71 +1,92 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Cash Register Manager</title>
-    <link href="./src/styles.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
-    <div class="container">
-      <header>
-        <h1 class="header">Cash Register Manager</h1>
-        <p class="description">
-          Enter the bill amount and cash given by the customer and know minimum
-          number of notes to return.
-        </p>
-      </header>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Cash Register Manager</title>
+  <link href="./src/styles.css" rel="stylesheet" type="text/css" />
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+</head>
 
-      <div id="input" class="input-label">
-        <label for="bill-amount">Bill Amount:</label>
-        <input type="number" id="bill-amount" class="input" />
-        <label for="cash-given">Cash Given</label>
-        <input type="number" id="cash-given" class="input" />
-        <button id="check-button" class="btn">Click Me</button>
-        <p id="error-message"></p>
-      </div>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="header">Cash Register Manager</h1>
+      <p class="description">
+        Enter the bill amount and cash given by the customer and know minimum
+        number of notes to return.
+      </p>
+    </header>
 
-      <div id="output">
-        <table class="cash-table">
-          <caption>
-            Result
-          </caption>
-          <tr>
-            <th>No. of notes</th>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-          </tr>
-          <tr>
-            <th>Notes</th>
-            <td>2000</td>
-            <td>500</td>
-            <td>200</td>
-            <td>100</td>
-            <td>20</td>
-            <td>10</td>
-            <td>5</td>
-            <td>1</td>
-          </tr>
-        </table>
-      </div>
+    <div id="input" class="input-label">
+      <label for="bill-amount">Bill Amount:</label>
+      <input type="number" id="bill-amount" class="input" />
+      <label for="cash-given">Cash Given</label>
+      <input type="number" id="cash-given" class="input" />
+      <button id="check-button" class="btn">Click Me</button>
+      <p id="error-message"></p>
     </div>
 
-    <footer>
-      <span
-        >Made with ❤️ by
-        <a href="./index.html" style="text-decoration: none;"
-          >Tanishq Kumar</a
-        ></span
-      >
-      | &#169; 2021
-    </footer>
-    <script src="./src/index.js"></script>
-  </body>
+    <div id="output">
+      <table class="cash-table">
+        <caption>
+          Result
+        </caption>
+        <tr>
+          <th>No. of notes</th>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+        </tr>
+        <tr>
+          <th>Notes</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>200</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- footer section start -->
+  <footer>
+    <span>Created By <a href="#">Tanishq Kumar</a> | &copy; 2021</span>
+    <br>
+    <div class="social-buttons" style="background: none; padding: 0px;">
+      <a href="https://github.com/tanishq20" target="blank" class="social-margin">
+        <div class="social-icon github">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/tanishq-kumar-b03a52194/" class="social-margin" target="blank">
+        <div class="social-icon linkedin">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+      </a>
+      <a href="https://twitter.com/tanishqkumar_20" target="_blank" class="social-margin">
+        <div class="social-icon twitter">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/tanishq_kumar20/" target="blank" class="social-margin">
+        <div class="social-icon instagram">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+      </a>
+    </div>
+  </footer>
+  <script src="./src/index.js"></script>
+</body>
+
 </html>
